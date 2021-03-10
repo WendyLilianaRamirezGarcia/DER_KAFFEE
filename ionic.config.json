@@ -1,0 +1,7 @@
+{
+  "name": "DER_KAFFEE",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
