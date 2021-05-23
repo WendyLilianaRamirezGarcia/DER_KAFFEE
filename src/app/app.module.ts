@@ -10,6 +10,8 @@ import { DerkaffeePage } from '../pages/derkaffee/derkaffee';
 import { HomePage } from '../pages/home/home';
 import { MediaPage} from '../pages/media/media';
 import { CoffePotsPage } from '../pages/coffe-pots/coffe-pots';
+import { DetailshomePage } from '../pages/detailshome/detailshome';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CoffePotsPage } from '../pages/coffe-pots/coffe-pots';
     DerkaffeePage,
     HomePage,
     MediaPage,
-    CoffePotsPage
+    CoffePotsPage,
+    DetailshomePage
+
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,8 @@ import { CoffePotsPage } from '../pages/coffe-pots/coffe-pots';
     DerkaffeePage,
     HomePage,
     MediaPage,
-    CoffePotsPage
+    CoffePotsPage,
+    DetailshomePage
     
   ],
   providers: [
